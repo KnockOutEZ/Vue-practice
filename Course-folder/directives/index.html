@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>VueJS Course</title>
+  <link rel="stylesheet" type="text/css" href="main.css" />
+</head>
+
+<body>
+  <div id="app" v-cloak>
+    <p v-html="raw_url"></p>
+
+    {{Puki}}
+    {{Puka}}
+    <hr>
+    <label>First name</label>
+    <input type="text" v-model="Puki">
+
+    <label>Last name</label>
+    <input type="text" v-model="Puka">
+
+    <a rel="stylesheet" :href="url">asdasd</a>
+  </div>
+
+  <script src="https://unpkg.com/vue@next"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
