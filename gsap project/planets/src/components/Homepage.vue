@@ -39,258 +39,274 @@
     <section id="sectiontwo" class="screen">
       <!-- slide 1 -->
 
-      <div class="slide">
+      <div class="slide1">
         <div class="planetPreview">
-        <div class="planetimg">
-          <img src="../assets/mercury.png" alt="" />
-        </div>
-        <h4 class="number"><span>01</span></h4>
-        <div class="planetTexts">
-          <p class="planetName"><span>Murcury</span></p>
-          <p class="planetDes">
-            <span>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis nam
-              quos eveniet iste adipisci asperiores consectetur voluptatum
-              architecto blanditiis dolorem, laudantium natus, magnam dicta!
-              Debitis id dignissimos nobis ipsum vero!
-            </span>
-          </p>
+          <div class="planetimg">
+            <img src="../assets/mercury.png" alt="" />
+          </div>
+          <h4 class="number"><span>01</span></h4>
+          <div class="planetTexts">
+            <transition appear @before-enter="beforeEnter" @enter="enter">
+            <p class="planetName"><span>Murcury</span></p>
+            </transition>
+            <p class="planetDes">
+              <span>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
+                nam quos eveniet iste adipisci asperiores consectetur voluptatum
+                architecto blanditiis dolorem, laudantium natus, magnam dicta!
+                Debitis id dignissimos nobis ipsum vero!
+              </span>
+            </p>
 
-          <h5 class="planetsm">
-            ORBIT PERIOD:
-            <span style="opacity: 0.7"> 87.97 Earth Days </span>
-          </h5>
+            <h5 class="planetsm">
+              ORBIT PERIOD:
+              <span style="opacity: 0.7"> 87.97 Earth Days </span>
+            </h5>
 
-          <h5 class="planetsm" style="margin-left: 5vw">
-            KNOWN MOONS:
-            <span style="opacity: 0.7"> None </span>
-          </h5>
+            <h5 class="planetsm" style="margin-left: 5vw">
+              KNOWN MOONS:
+              <span style="opacity: 0.7"> None </span>
+            </h5>
+          </div>
         </div>
-      </div>
       </div>
 
       <!-- slide 2 -->
 
-      <div class="slide">
+      <div class="slide1">
         <div class="planetPreview">
-        <div class="planetimg">
-          <img src="../assets/venus.png" alt="" />
-        </div>
-        <h4 class="number"><span>02</span></h4>
-        <div class="planetTexts">
-          <p class="planetName"><span>Venus</span></p>
-          <p class="planetDes">
-            <span>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis nam
-              quos eveniet iste adipisci asperiores consectetur voluptatum
-              architecto blanditiis dolorem, laudantium natus, magnam dicta!
-              Debitis id dignissimos nobis ipsum vero!
-            </span>
-          </p>
+          <div class="planetimg">
+            <img src="../assets/venus.png" alt="" />
+          </div>
+          <h4 class="number"><span>02</span></h4>
+          <div class="planetTexts">
+            <transition appear @before-enter="beforeEnter" @enter="enter">
+            <p class="planetName"><span>Venus</span></p>
+            </transition>
+            <p class="planetDes">
+              <span>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
+                nam quos eveniet iste adipisci asperiores consectetur voluptatum
+                architecto blanditiis dolorem, laudantium natus, magnam dicta!
+                Debitis id dignissimos nobis ipsum vero!
+              </span>
+            </p>
 
-          <h5 class="planetsm">
-            ORBIT PERIOD:
-            <span style="opacity: 0.7"> 87.97 Earth Days </span>
-          </h5>
+            <h5 class="planetsm">
+              ORBIT PERIOD:
+              <span style="opacity: 0.7"> 87.97 Earth Days </span>
+            </h5>
 
-          <h5 class="planetsm" style="margin-left: 5vw">
-            KNOWN MOONS:
-            <span style="opacity: 0.7"> None </span>
-          </h5>
+            <h5 class="planetsm" style="margin-left: 5vw">
+              KNOWN MOONS:
+              <span style="opacity: 0.7"> None </span>
+            </h5>
+          </div>
         </div>
-      </div>
       </div>
 
       <!-- slide 3 -->
 
-      <div class="slide">
+      <div class="slide1">
         <div class="planetPreview">
-        <div class="planetimg">
-          <img src="../assets/earth1.png" alt="" />
-        </div>
-        <h4 class="number"><span>03</span></h4>
-        <div class="planetTexts">
-          <p class="planetName"><span>Earth</span></p>
-          <p class="planetDes">
-            <span>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis nam
-              quos eveniet iste adipisci asperiores consectetur voluptatum
-              architecto blanditiis dolorem, laudantium natus, magnam dicta!
-              Debitis id dignissimos nobis ipsum vero!
-            </span>
-          </p>
+          <div class="planetimg">
+            <img src="../assets/earth1.png" alt="" />
+          </div>
+          <h4 class="number"><span>03</span></h4>
+          <div class="planetTexts">
+            <transition appear @before-enter="beforeEnter" @enter="enter">
+            <p class="planetName"><span>Earth</span></p>
+            </transition>
+            <p class="planetDes">
+              <span>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
+                nam quos eveniet iste adipisci asperiores consectetur voluptatum
+                architecto blanditiis dolorem, laudantium natus, magnam dicta!
+                Debitis id dignissimos nobis ipsum vero!
+              </span>
+            </p>
 
-          <h5 class="planetsm">
-            ORBIT PERIOD:
-            <span style="opacity: 0.7"> 87.97 Earth Days </span>
-          </h5>
+            <h5 class="planetsm">
+              ORBIT PERIOD:
+              <span style="opacity: 0.7"> 87.97 Earth Days </span>
+            </h5>
 
-          <h5 class="planetsm" style="margin-left: 5vw">
-            KNOWN MOONS:
-            <span style="opacity: 0.7"> None </span>
-          </h5>
+            <h5 class="planetsm" style="margin-left: 5vw">
+              KNOWN MOONS:
+              <span style="opacity: 0.7"> None </span>
+            </h5>
+          </div>
         </div>
-      </div>
       </div>
 
       <!-- slide 4 -->
 
-      <div class="slide">
+      <div class="slide1">
         <div class="planetPreview">
-        <div class="planetimg">
-          <img src="../assets/mars.png" alt="" />
-        </div>
-        <h4 class="number"><span>04</span></h4>
-        <div class="planetTexts">
-          <p class="planetName"><span>Mars</span></p>
-          <p class="planetDes">
-            <span>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis nam
-              quos eveniet iste adipisci asperiores consectetur voluptatum
-              architecto blanditiis dolorem, laudantium natus, magnam dicta!
-              Debitis id dignissimos nobis ipsum vero!
-            </span>
-          </p>
+          <div class="planetimg">
+            <img src="../assets/mars.png" alt="" />
+          </div>
+          <h4 class="number"><span>04</span></h4>
+          <div class="planetTexts">
+            <transition appear @before-enter="beforeEnter" @enter="enter">
+            <p class="planetName"><span>Mars</span></p>
+            </transition>
+            <p class="planetDes">
+              <span>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
+                nam quos eveniet iste adipisci asperiores consectetur voluptatum
+                architecto blanditiis dolorem, laudantium natus, magnam dicta!
+                Debitis id dignissimos nobis ipsum vero!
+              </span>
+            </p>
 
-          <h5 class="planetsm">
-            ORBIT PERIOD:
-            <span style="opacity: 0.7"> 87.97 Earth Days </span>
-          </h5>
+            <h5 class="planetsm">
+              ORBIT PERIOD:
+              <span style="opacity: 0.7"> 87.97 Earth Days </span>
+            </h5>
 
-          <h5 class="planetsm" style="margin-left: 5vw">
-            KNOWN MOONS:
-            <span style="opacity: 0.7"> None </span>
-          </h5>
+            <h5 class="planetsm" style="margin-left: 5vw">
+              KNOWN MOONS:
+              <span style="opacity: 0.7"> None </span>
+            </h5>
+          </div>
         </div>
-      </div>
       </div>
 
       <!-- slide 5 -->
 
       <div class="slide1">
         <div class="planetPreview">
-        <div class="planetimg">
-          <img src="../assets/jupiter.png" alt="" />
-        </div>
-        <h4 class="number"><span>05</span></h4>
-        <div class="planetTexts">
-          <p class="planetName"><span>Jupiter</span></p>
-          <p class="planetDes">
-            <span>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis nam
-              quos eveniet iste adipisci asperiores consectetur voluptatum
-              architecto blanditiis dolorem, laudantium natus, magnam dicta!
-              Debitis id dignissimos nobis ipsum vero!
-            </span>
-          </p>
+          <div class="planetimg">
+            <img src="../assets/jupiter.png" alt="" />
+          </div>
+          <h4 class="number"><span>05</span></h4>
+          <div class="planetTexts">
+            <transition appear @before-enter="beforeEnter" @enter="enter">
+            <p class="planetName"><span>Jupiter</span></p>
+            </transition>
+            <p class="planetDes">
+              <span>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
+                nam quos eveniet iste adipisci asperiores consectetur voluptatum
+                architecto blanditiis dolorem, laudantium natus, magnam dicta!
+                Debitis id dignissimos nobis ipsum vero!
+              </span>
+            </p>
 
-          <h5 class="planetsm">
-            ORBIT PERIOD:
-            <span style="opacity: 0.7"> 87.97 Earth Days </span>
-          </h5>
+            <h5 class="planetsm">
+              ORBIT PERIOD:
+              <span style="opacity: 0.7"> 87.97 Earth Days </span>
+            </h5>
 
-          <h5 class="planetsm" style="margin-left: 5vw">
-            KNOWN MOONS:
-            <span style="opacity: 0.7"> None </span>
-          </h5>
+            <h5 class="planetsm" style="margin-left: 5vw">
+              KNOWN MOONS:
+              <span style="opacity: 0.7"> None </span>
+            </h5>
+          </div>
         </div>
-      </div>
       </div>
 
       <!-- slide 6 -->
 
       <div class="slide1">
         <div class="planetPreview">
-        <div class="planetimg">
-          <img src="../assets/saturn.png" alt="" />
-        </div>
-        <h4 class="number"><span>06</span></h4>
-        <div class="planetTexts">
-          <p class="planetName"><span>Saturn</span></p>
-          <p class="planetDes">
-            <span>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis nam
-              quos eveniet iste adipisci asperiores consectetur voluptatum
-              architecto blanditiis dolorem, laudantium natus, magnam dicta!
-              Debitis id dignissimos nobis ipsum vero!
-            </span>
-          </p>
+          <div class="planetimg">
+            <img src="../assets/saturn.png" alt="" />
+          </div>
+          <h4 class="number"><span>06</span></h4>
+          <div class="planetTexts">
+            <transition appear @before-enter="beforeEnter" @enter="enter">
+            <p class="planetName"><span>Saturn</span></p>
+            </transition>
+            <p class="planetDes">
+              <span>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
+                nam quos eveniet iste adipisci asperiores consectetur voluptatum
+                architecto blanditiis dolorem, laudantium natus, magnam dicta!
+                Debitis id dignissimos nobis ipsum vero!
+              </span>
+            </p>
 
-          <h5 class="planetsm">
-            ORBIT PERIOD:
-            <span style="opacity: 0.7"> 87.97 Earth Days </span>
-          </h5>
+            <h5 class="planetsm">
+              ORBIT PERIOD:
+              <span style="opacity: 0.7"> 87.97 Earth Days </span>
+            </h5>
 
-          <h5 class="planetsm" style="margin-left: 5vw">
-            KNOWN MOONS:
-            <span style="opacity: 0.7"> None </span>
-          </h5>
+            <h5 class="planetsm" style="margin-left: 5vw">
+              KNOWN MOONS:
+              <span style="opacity: 0.7"> None </span>
+            </h5>
+          </div>
         </div>
-      </div>
       </div>
 
       <!-- slide 7 -->
 
       <div class="slide1">
         <div class="planetPreview">
-        <div class="planetimg">
-          <img src="../assets/uranus.png" alt="" />
-        </div>
-        <h4 class="number"><span>07</span></h4>
-        <div class="planetTexts">
-          <p class="planetName"><span>Uranus</span></p>
-          <p class="planetDes">
-            <span>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis nam
-              quos eveniet iste adipisci asperiores consectetur voluptatum
-              architecto blanditiis dolorem, laudantium natus, magnam dicta!
-              Debitis id dignissimos nobis ipsum vero!
-            </span>
-          </p>
+          <div class="planetimg">
+            <img src="../assets/uranus.png" alt="" />
+          </div>
+          <h4 class="number"><span>07</span></h4>
+          <div class="planetTexts">
+            <transition appear @before-enter="beforeEnter" @enter="enter">
+            <p class="planetName"><span>Uranus</span></p>
+            </transition>
+            <p class="planetDes">
+              <span>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
+                nam quos eveniet iste adipisci asperiores consectetur voluptatum
+                architecto blanditiis dolorem, laudantium natus, magnam dicta!
+                Debitis id dignissimos nobis ipsum vero!
+              </span>
+            </p>
 
-          <h5 class="planetsm">
-            ORBIT PERIOD:
-            <span style="opacity: 0.7"> 87.97 Earth Days </span>
-          </h5>
+            <h5 class="planetsm">
+              ORBIT PERIOD:
+              <span style="opacity: 0.7"> 87.97 Earth Days </span>
+            </h5>
 
-          <h5 class="planetsm" style="margin-left: 5vw">
-            KNOWN MOONS:
-            <span style="opacity: 0.7"> None </span>
-          </h5>
+            <h5 class="planetsm" style="margin-left: 5vw">
+              KNOWN MOONS:
+              <span style="opacity: 0.7"> None </span>
+            </h5>
+          </div>
         </div>
-      </div>
       </div>
 
       <!-- slide 8 -->
 
       <div class="slide1">
         <div class="planetPreview">
-        <div class="planetimg">
-          <img src="../assets/neptune.png" alt="" />
-        </div>
-        <h4 class="number"><span>08</span></h4>
-        <div class="planetTexts">
-          <p class="planetName"><span>Neptune</span></p>
-          <p class="planetDes">
-            <span>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis nam
-              quos eveniet iste adipisci asperiores consectetur voluptatum
-              architecto blanditiis dolorem, laudantium natus, magnam dicta!
-              Debitis id dignissimos nobis ipsum vero!
-            </span>
-          </p>
+          <div class="planetimg">
+            <img src="../assets/neptune.png" alt="" />
+          </div>
+          <h4 class="number"><span>08</span></h4>
+          <div class="planetTexts">
+            <transition appear @before-enter="beforeEnter" @enter="enter">
+            <p class="planetName"><span>Neptune</span></p>
+            </transition>
+            <p class="planetDes">
+              <span>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
+                nam quos eveniet iste adipisci asperiores consectetur voluptatum
+                architecto blanditiis dolorem, laudantium natus, magnam dicta!
+                Debitis id dignissimos nobis ipsum vero!
+              </span>
+            </p>
 
-          <h5 class="planetsm">
-            ORBIT PERIOD:
-            <span style="opacity: 0.7"> 87.97 Earth Days </span>
-          </h5>
+            <h5 class="planetsm">
+              ORBIT PERIOD:
+              <span style="opacity: 0.7"> 87.97 Earth Days </span>
+            </h5>
 
-          <h5 class="planetsm" style="margin-left: 5vw">
-            KNOWN MOONS:
-            <span style="opacity: 0.7"> None </span>
-          </h5>
+            <h5 class="planetsm" style="margin-left: 5vw">
+              KNOWN MOONS:
+              <span style="opacity: 0.7"> None </span>
+            </h5>
+          </div>
         </div>
-      </div>
       </div>
 
       <!-- SLIDER LINKS -->
@@ -300,11 +316,18 @@
         </div>
       </div>
     </section>
+
+    <!-- <transition appear @before-enter="beforeEnter" @enter="enter">
+      <h1 style="color:white">Hi</h1>
+    </transition> -->
   </section>
+
+  
 </template>
 
 <script>
 import Parallax from "parallax-js";
+import gsap from "gsap";
 
 export default {
   name: "Homepage",
@@ -316,30 +339,47 @@ export default {
     var slideIndex = 0;
     carousel();
 
-function carousel() {
-  var i;
-  var x = document.getElementsByClassName("planetPreview");
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none"; 
-  }
-  slideIndex++;
-  if (slideIndex > x.length) {slideIndex = 1} 
-  x[slideIndex-1].style.display = "block"; 
-  setTimeout(carousel, 2000); 
-}
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("planetPreview");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      slideIndex++;
+      if (slideIndex > x.length) {
+        slideIndex = 1;
+      }
+      x[slideIndex - 1].style.display = "block";
+      setTimeout(carousel, 2000);
+    }
 
-const textrev = gsap.timeline();
+    // const textrev = gsap.timeline();
 
-textrev.from(".planetName span",1.8,{
-  y:200,
-  ease:"power4.out",
-  delay:1,
-  skewY:10,
-  stagger:{
-    amount:0.4
-  }
-})
+    // textrev.from(".planetName span", 1.8, {
+    //   y: 200,
+    //   ease: "power4.out",
+    //   delay: 1,
+    //   skewY: 10,
+    //   stagger: {
+    //     amount: 0.4,
+    //   },
+    // });
   },
+  setup(){
+    const beforeEnter = (el) => {
+      el.style.transform = 'translateY(-60px)'
+      el.style.opacity = 0
+    }
+    const enter = (el) => {
+      gsap.to(el,{
+        duration:1,
+        y:0,
+        opacity:1,
+        
+      })
+    }
+    return {beforeEnter,enter}
+  }
 };
 </script>
 
@@ -467,7 +507,7 @@ nav .nav-link ul img {
 }
 
 /* Swiper */
-.slide{
+.slide {
   display: none;
 }
 
